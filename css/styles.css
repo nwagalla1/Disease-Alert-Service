@@ -45,14 +45,16 @@ html, body {
     cursor: pointer;
 }
 
-}.row:after{
-    display: table;
-    clear: both;
-    content: "";
+.row:after{
+    display: flex;
+    justify-content: center;
 }
 .column{
     float: left;
     width: 40%;
 
+}
+.images{
+    background-color: aquamarine;
 }
 
